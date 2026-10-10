@@ -1,4 +1,5 @@
-import {Text, View} from "react-native"
+import { ThemedText } from "@/components/themed-text";
+import { ThemedView } from "@/components/themed-view";
 
 const Home = () => {
   // practice js here - start
@@ -6,9 +7,9 @@ const Home = () => {
   // practice js here - end
   return (
     <>
-      <View>
-        <Text>Home</Text>
-      </View>
+      <ThemedView>
+        <ThemedText>Home</ThemedText>
+      </ThemedView>
     </>
   )
 }
